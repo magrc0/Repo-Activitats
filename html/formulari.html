@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulari</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/color.css">
+    
+</head>
+
+
+<body> 
+    <h1><br>Formulari</h1><br>
+    <button1
+            style="background-color: #0000FF; color: #FFFFFF;"
+            onclick="window.location.href='/index.html'">Tornar a l'inici
+    </button1>
+
+    <form action="formulari.php" method="post"><br>
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="cognoms">Cognoms:</label>
+        <input type="text" id="cognoms" name="cognoms" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="data">Any de naixement:</label>
+        <input type="date" id="data" name="data"><br><br>
+
+        <label for="missatge">Missatge:</label><br>
+        <textarea id="missatge" name="missatge" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="fav_language">Gènere:</label><br>
+        <input type="radio" id="Masculi" name="fav_language" value="Masculi">
+        <label for="Masculi">Masculi</label><br>
+        <input type="radio" id="Femeni" name="fav_language" value="Femeni">
+        <label for="Femeni">Femeni</label><br>
+        <input type="radio" id="Altre" name="fav_language" value="Altre">
+        <label for="Altre">Altre</label><br><br>
+
+        <label for="favcolor">Seleccionael teu color preferit:</label>
+        <input type="color" id="favcolor" name="favcolor"><br><br>
+
+        <label for="fitxer">Imatege carnet:</label>
+        <input type="file" id="fitxer" name="fitxer"><br><br>
+
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Esborrar">
+
+    </form>
+</body>
+
+</html>

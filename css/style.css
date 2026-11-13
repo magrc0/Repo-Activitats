@@ -1,9 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2px;
 
     text-decoration: none;
     list-style: none;
+}
+
+title, h1, h2, ul1, p{
+    text-align: center;
 }
 
 td, th {
@@ -14,3 +18,4 @@ td, th {
 #AW {
     background-color: #f2f2f2;
 }
+
